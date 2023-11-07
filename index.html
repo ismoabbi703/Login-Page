@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>Login Page</title>
+</head>
+<body>
+
+<header>
+  <div class="content-width">
+  <h1>Login</h1>
+   <p><em>Please fill out this form with the required information</em></p>
+  </div>
+</header>
+
+
+<form>
+  <div class="form">
+    <label for="uname"><b>Enter Your Username:</b>
+       <input type="text" id="uname" placeholder="Enter Username" required/>
+      </label>
+
+    <label for="psw" required><b>Enter Your Password:</b></label>
+    <input type="password" placeholder="Enter Password" id="psw" required>
+    <button onclick="window.location.href = 'page2.html';">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+ 
+    <button type="button" class="cancel">Cancel</button>
+    <span class="psw"><a href="forgot.html"> Forgot password?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
